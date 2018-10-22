@@ -1,0 +1,167 @@
+#main {
+  background-color: #888CFF;
+  height: 100%;
+}
+
+.main-header {
+  height: 60px;
+  display: flex;
+  overflow: hidden;
+}
+
+.logo {
+  align-content: right;
+  margin: 20px;
+  margin-left: 40px;
+}
+
+.header-icon {
+  margin: 20px;
+  margin-left: 1200px;
+  align-content: left;
+  border-radius: 50%;
+  background: #73EFB2;
+  height: 20px;
+  width: 20px;
+}
+
+.divide-horizontal {
+  display: flex;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.banner-text {
+  font-family: sans-serif;
+  color: #FFFFFF;
+  font-size: 80px;
+  align-content: center;
+  font-weight: bold;
+  margin: 0px;
+  line-height: 100%;
+}
+.text-center {
+  align-content: center;
+} 
+.banner-small-text {
+  font-family: sans-serif;
+  color: #FFFFFF;
+  align-content: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+.vegy {
+  color: #73EFB2;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main-body {
+  padding-top: 50px;
+}
+
+.card-black {
+  background: #473F42;
+  width: auto;
+  height: auto;
+  transform: rotate(-3deg);
+  padding-left: 30px;
+  line-height: 600%;
+  padding: 10px;
+}
+.card-white {
+  background: #FFFFFF;
+  width: auto;
+  height: auto; 
+  transform: rotate(-2deg);
+}
+.card-blue {
+  background: #6469E3;
+  width: 550px;
+  height: 260px;
+  transform: rotate(3deg);
+}
+.card-green {
+  background: #73EFB2;
+  width: auto;
+  height: 480px;
+  transform: rotate(-3deg);
+}
+.space-around {
+  margin: 10px;
+}
+.text-sans {
+  font-family: sans-serif;
+}
+.gamma {
+  font-size: 30px;
+}
+.alpha {
+  font-size: 88px;
+}
+.beta {
+  font-size: 65px;
+}
+.bold {
+  font-weight: bold;
+}
+.soft {
+  margin: 20px;
+}
+.soft-left {
+  margin-left: 10px;
+}
+.soft-right {
+  margin-right: 10px;
+}
+.soft-ends {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.hard {
+  margin: 0px;
+}
+.hard-left {
+  margin-left: 0px;
+}
+.soft-top {
+  margin-top: 10px;
+}
+.soft-double-top {
+  margin-top: 20px;
+}
+.soft-bottom {
+  margin-bottom: 10px;
+}
+.soft-double-bottom {
+  margin-bottom: 20px;
+}
+.push {
+  padding: 20px;
+}
+.push-top {
+  padding-top: 10px; 
+}
+.push-double-top {
+  padding-top: 20px;
+}
+.push-bottom {
+  padding-bottom: 10px;
+}
+.push-double-bottom {
+  padding-bottom: 20px;
+}
+.white {
+  color: #FFFFFF;
+}
+.text-vegy {
+  color: #73EFB2;
+}
+.text-purple {
+  color: #888CFF;
+}

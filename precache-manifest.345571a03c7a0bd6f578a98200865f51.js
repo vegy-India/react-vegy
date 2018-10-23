@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/react-vegy/static/css/main.c306075c.chunk.css"
   },
   {
-    "revision": "e4be9ea06d4a9c2277ce069740455e5c",
+    "revision": "195204adb0adbc2b20c34c9b16277bbc",
     "url": "/react-vegy/index.html"
   }
 ];

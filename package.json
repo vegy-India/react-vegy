@@ -2,7 +2,7 @@
   "name": "react-vegy",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://vegy-india.github.io/react-vegy",
+  "homepage": "http://vegy-india.github.io/react-vegy/",
   "dependencies": {
     "css": "^2.2.4",
     "jquery": "^3.3.1",

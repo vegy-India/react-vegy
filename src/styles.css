@@ -1,10 +1,11 @@
-#main {
+#main-body {
   background-color: #888CFF;
   height: 100%;
+  width: 100%;
 }
 
 .main-header {
-  height: 60px;
+  height: 80px;
   display: flex;
   overflow: hidden;
 }
@@ -12,13 +13,10 @@
 .logo {
   align-content: right;
   margin: 20px;
-  margin-left: 40px;
 }
 
 .header-icon {
   margin: 20px;
-  margin-left: 1200px;
-  align-content: left;
   border-radius: 50%;
   background: #73EFB2;
   height: 20px;
@@ -44,6 +42,16 @@
   margin: 0px;
   line-height: 100%;
 }
+.small-banner-text {
+  font-family: sans-serif;
+  color: #FFFFFF;
+  font-size: 60px;
+  align-content: center;
+  font-weight: bold;
+  margin: 0px;
+  line-height: 100%;
+}
+
 .text-center {
   align-content: center;
 } 
@@ -79,6 +87,22 @@
   width: auto;
   height: auto; 
   transform: rotate(-2deg);
+  position: absolute;
+}
+.small-card-white {
+  background: #FFFFFF;
+  width: auto;
+  height: auto; 
+}
+.papercut {
+  top: 0;
+  left: 6px;
+  right: 6px;
+  height: 25px;
+  background-color: #888CFF;
+  margin-top: -8px;
+  mask: url(./images/circle.svg);
+  -webkit-mask: url(./images/circle.svg);
 }
 .card-blue {
   background: #6469E3;
@@ -86,11 +110,21 @@
   height: 260px;
   transform: rotate(3deg);
 }
+.small-card-blue {
+  background: #6469E3;
+  width: auto;
+  height: auto;
+}
 .card-green {
   background: #73EFB2;
   width: auto;
   height: 480px;
   transform: rotate(-3deg);
+}
+.small-card-green {
+  background: #73EFB2;
+  width: auto;
+  height: auto;
 }
 .space-around {
   margin: 10px;
@@ -107,6 +141,9 @@
 .beta {
   font-size: 65px;
 }
+.delta {
+  font-size: 20px;
+}
 .bold {
   font-weight: bold;
 }
@@ -122,6 +159,10 @@
 .soft-ends {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.soft-sides {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .hard {
   margin: 0px;
@@ -164,4 +205,37 @@
 }
 .text-purple {
   color: #888CFF;
+}
+.center {
+  margin: 0 auto;
+}
+
+.container-sheet {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate3d(-50%, 0, 0);
+  transform: translate3d(-50%, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+  height: 710px;
+  width: 100%;
+  max-width: 1300px;
+}
+
+/* to relase the card on scroll */
+.release {
+  position: relative;
+  left: auto;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.stuck {
+  position: fixed;
+  top: 0;
+  transform: translate3d(-50%, 0, 0);
+  height: 100vh;
+  align-items: center;
+  display: flex;
 }

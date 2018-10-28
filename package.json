@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "http://vegy-india.github.io/react-vegy/",
   "dependencies": {
+    "aos": "^2.3.4",
+    "axios": "^0.18.0",
     "css": "^2.2.4",
     "jquery": "^3.3.1",
     "react": "^16.5.2",

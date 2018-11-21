@@ -5,7 +5,7 @@
 }
 
 .main-header {
-  height: 80px;
+  height: 100px;
   display: flex;
   overflow: hidden;
 }
@@ -13,14 +13,18 @@
 .logo {
   align-content: right;
   margin: 20px;
+  margin-left: 140px;
+  margin-top: 50px;
 }
 
 .header-icon {
   margin: 20px;
   border-radius: 50%;
   background: #73EFB2;
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
+  margin-right: 140px;
+  margin-top: 50px;
 }
 
 .divide-horizontal {
@@ -36,7 +40,7 @@
 .banner-text {
   font-family: sans-serif;
   color: #FFFFFF;
-  font-size: 80px;
+  font-size: 88px;
   align-content: center;
   font-weight: bold;
   margin: 0px;
@@ -51,16 +55,32 @@
   margin: 0px;
   line-height: 100%;
 }
-
+.upwards {
+  margin-top: 400px;
+  margin-left: 40px;
+  text-orientation: sideways;
+  writing-mode: vertical-lr;
+  -webkit-transform:rotate(-180deg);
+-moz-transform:rotate(-180deg);
+-o-transform:rotate(-180deg);
+transform:rotate(-180deg);
+}
+.downwards {
+  margin-top: 360px;
+  margin-right: 40px!important;
+  text-orientation: sideways;
+  writing-mode: vertical-rl;
+}
 .text-center {
   align-content: center;
 } 
-.banner-small-text {
+.banner-small-text { 
+  font-size: 16px;
   font-family: sans-serif;
   color: #FFFFFF;
   align-content: center;
   margin: 0px;
-  padding: 10px;
+  padding-top: 30px;
 }
 
 .vegy {

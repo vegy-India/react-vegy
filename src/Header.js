@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import logo from './images/logo.svg';
+import smallLogo from './images/small-logo.svg';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
+import $ from 'jquery';
 
 class Header extends Component {
   componentDidMount() {
@@ -22,7 +24,8 @@ class Header extends Component {
     return (
       <Row xs={12} className="main-header push-top" id="navbar">
         <Col xs={6} className="logo">
-          <img src={logo} height="25" alt="logo"/>
+          <img id="main-logo1" src={logo} height="30" alt="logo"/>
+          <img style={{ 'display': 'none'}} id="main-logo2" src={smallLogo} height="23" alt="logo"/>
         </Col>
         <Col xs={6} className="soft-right">
           <div className="header-icon pull-right"></div>

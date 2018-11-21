@@ -11,6 +11,7 @@ import SmallBlueCard from './SmallBlueCard';
 import Connect from './Connect';
 import image1 from './images/main_image1.png';
 import image2 from './images/main_image2.png';
+import scroll from './images/scroll.svg';
 // import $ from 'jquery';
 
 class Body extends Component {
@@ -32,18 +33,18 @@ class Body extends Component {
           <Row md={12} className="soft-bottom hard">
             <Col xsHidden md={6} style={{marginLeft: '100px'}}>
               <Row md={12} style={{marginLeft: '50px'}} className="push push-double-bottom">
-                <Col md={5}>
+                {/* <Col md={5}>
                   <img style={{position: 'absolute', top: '70px', left: '0px'}} id="img1" src={image1} width="300" height="500" alt="veg1"/>
                 </Col>
                 <Col md={5}>
                 <img style={{position: 'absolute', top: '-99px', left: '-50px'}} id="img2" src={image2} width="500" height="550" alt="veg2"/>
-                </Col>
+                </Col> */}
               </Row>
             </Col>
             <Col xsHidden md={6} style={{ marginTop: '150px', marginLeft: '-150px'}}>
-            <p className="banner-text hard">This is <br/> something <br/><span className="vegy" >vegy </span>right?</p>
+            <p className="banner-text push-top">This is <br/> something <br/><span className="vegy" >vegy </span>right?</p>
             <div>
-              <p className="banner-small-text">Is that why Stéréosuper and its tight group of Frenchies <br/>are so good at whipping up awesome visual identities <br/>and designing kick-ass sites and apps?<br/> Lucky for you, Stéréosuper goes all American dream <br/>and opens an office in Brooklyn.Want to talk about it?</p>
+              <p className="banner-small-text soft-double-top">Is that why Stéréosuper and its tight group of Frenchies <br/>are so good at whipping up awesome visual identities <br/>and designing kick-ass sites and apps?<br/> Lucky for you, Stéréosuper goes all American dream <br/>and opens an office in Brooklyn.Want to talk about it?</p>
             </div> 
             </Col>
           </Row>
@@ -57,11 +58,14 @@ class Body extends Component {
           </Row>
           <Row >
             <Col mdHidden lgHidden>
-            <p className="small-banner-text soft">This is <br/> something <br/><span className="vegy" >vegy </span>right?</p>
+            <p className="small-banner-text soft push-top">This is <br/> something <br/><span className="vegy" >vegy </span>right?</p>
             <div>
               <p className="banner-small-text soft">Is that why Stéréosuper and its tight group of Frenchies <br/>are so good at whipping up awesome visual identities <br/>and designing kick-ass sites and apps? <br/>and opens an office in Brooklyn.Want to talk about it?</p>
             </div> 
             </Col>
+          </Row>
+          <Row xs={12} className="soft">
+            <div className="text-center soft-double-top push-double-top"><img src={scroll} alt="scroll" height="40"></img></div>
           </Row>
           <Row xs={12} style={{marginTop: '100px'}}>
             <Col xsHidden md={6} style={{left: '600px', top:'60px'}}>

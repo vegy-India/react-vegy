@@ -4,7 +4,6 @@ import smallLogo from './images/small-logo.svg';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import $ from 'jquery';
-
 class Header extends Component {
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
@@ -15,9 +14,16 @@ class Header extends Component {
     var sticky = navbar.offsetTop;
     if (window.pageYOffset >= sticky) {
       navbar.classList.add("sticky")
+      $('#main-logo1').hide();
+      $('#main-logo2').show();
     } else {
       navbar.classList.remove("sticky");
     }
+    if(window.pageYOffset === sticky) {
+      $('#main-logo1').show();
+      $('#main-logo2').hide();
+    }
+
   };
 
   render() {

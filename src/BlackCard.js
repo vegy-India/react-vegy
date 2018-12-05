@@ -10,7 +10,6 @@ class BlackCard extends Component {
         <Col className="soft-left soft-right">
           <Row md={12} className="divide-horizontal">
             <Col md={6} className="text-vegy gamma bold hard-left">vegy.</Col>
-            <Col md={6} className="white push push-top">Presents</Col>
           </Row>
           <Row className="white bold alpha hard">RECI PE.<br/> TO <br/><p className="text-vegy hard">FAL<br/>L <br/></p>IN</Row>
           <img className="soft-double-bottom" src={heart} height="55" alt="image1" />

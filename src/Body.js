@@ -24,9 +24,10 @@ class Body extends Component {
   }
 
   onMouseOver() {
+    $('#playWithCursor').addClass('custom-cursor');
     // console.log('inside fu7nction');
     // var playground = document.querySelector("#playWithCursor");
-    // var cursorArray = ['url("http://jantimon.nl/running_man/running_man_1.cur"), auto',
+    // var cursorArray = ['url("https://a.uguu.se/JpFWAUx3XLMK_bird-03.cur"), auto',
     // 'url("http://jantimon.nl/running_man/running_man_2.cur"), auto',
     // 'url("http://jantimon.nl/running_man/running_man_3.cur"), auto',
     // 'url("http://jantimon.nl/running_man/running_man_4.cur"), auto',
@@ -41,6 +42,9 @@ class Body extends Component {
     // setTimeout(cursor, 50);
     // })();
 }
+onMouseOut() {
+  $('#playWithCursor').removeClass('custom-cursor');
+}
 
   handleScroll() {
     console.log("scroll function called");
@@ -54,7 +58,7 @@ class Body extends Component {
     return (
       <Row xs={12} className="main-body hard">
         <Col xs={12}>
-          <Row md={12} className="soft-bottom hard" id="playWithCursor" onMouseOver={this.onMouseOver}>
+          <Row md={12} className="soft-bottom hard" id="playWithCursor" onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut}>
             <Col xsHidden md={6} style={{marginLeft: '100px'}}>
               <Row md={12} style={{marginLeft: '50px'}} className="push push-double-bottom">
                 {/* <Col md={5}>

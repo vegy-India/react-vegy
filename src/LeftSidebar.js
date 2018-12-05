@@ -19,7 +19,11 @@ class LeftSidebar extends Component {
     return (
       <Row id='side-left' className="center ">
         <Col className="upwards">
-          <span><a href="#" target="_blank" style={{color:'black', fontSize: '16px'}} >#vegy</a></span>
+          <span>
+            <a href="#" target="_blank" style={{color:'#463E3E', fontSize: '16px'}} >
+              #vegy
+            </a>
+          </span>
         </Col>
       </Row>
     )

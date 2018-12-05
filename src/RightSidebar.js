@@ -19,9 +19,9 @@ class RightSidebar extends Component {
     return (
       <Row id='side-right' className="center pull-right">
         <Col className="downwards">
-        <span><a href="#" target="_blank" style={{color:'black', fontSize: '16px'}} >Instagram</a></span>
-        <span> | </span>
-        <span><a href="#" target="_blank" style={{color:'black', fontSize: '16px'}} >Facebook</a></span>
+        <span><a href="#" target="_blank" style={{color:'#463E3E', fontSize: '16px'}} >Instagram</a></span>
+        {/* <span> | </span> */}
+        {/* <span><a href="#" target="_blank" style={{color:'#463E3E', fontSize: '16px'}} >Facebook</a></span> */}
         </Col>
       </Row>
     )

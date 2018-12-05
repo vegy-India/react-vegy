@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/react-vegy/static/media/scroll.f7325149.svg"
   },
   {
-    "revision": "b178cf4e0a31b7d10acf",
-    "url": "/react-vegy/static/css/main.0be6268d.chunk.css"
+    "revision": "8f90dc68dc56abac4bd0",
+    "url": "/react-vegy/static/css/main.d13a4ce7.chunk.css"
   },
   {
-    "revision": "cf7704412c0edeaab0c9",
-    "url": "/react-vegy/static/js/1.cf770441.chunk.js"
+    "revision": "71a6acbe70725cb7eff7",
+    "url": "/react-vegy/static/js/1.71a6acbe.chunk.js"
   },
   {
     "revision": "ff076f1cc773cdf5a36a",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/react-vegy/static/media/heart.35952a54.svg"
   },
   {
-    "revision": "b178cf4e0a31b7d10acf",
-    "url": "/react-vegy/static/js/main.b178cf4e.chunk.js"
+    "revision": "8f90dc68dc56abac4bd0",
+    "url": "/react-vegy/static/js/main.8f90dc68.chunk.js"
   },
   {
     "revision": "a4a7758c0366ef1b4d0dd85fd917b157",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/react-vegy/static/media/bird-05_1.a4d2a299.cur"
   },
   {
-    "revision": "69b8f001feb51e582353c657ced59844",
+    "revision": "d3f5c42192423de6d599958b61cb74eb",
     "url": "/react-vegy/index.html"
   }
 ];

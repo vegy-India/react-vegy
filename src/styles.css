@@ -1,5 +1,5 @@
 #main-body {
-  background-color: #888CFF;
+  background-color: #FFFFFF;
   height: 100%;
   width: 100%;
 }
@@ -11,20 +11,26 @@
 }
 
 .logo {
-
   margin: 20px;
   margin-left: 140px;
   margin-top: 50px;
 }
 
-.header-icon {
+.header-right {
   margin: 20px;
+  margin-right: 140px;
+  margin-top: 50px;
+}
+
+.custom-cursor {
+  cursor: url(./images/circle.svg), 4,4,auto;
+}
+
+.header-icon {
   border-radius: 50%;
   background: #73EFB2;
   height: 25px;
   width: 25px;
-  margin-right: 140px;
-  margin-top: 50px;
 }
 
 .divide-horizontal {
@@ -39,7 +45,7 @@
 
 .banner-text {
   font-family: sans-serif;
-  color: #FFFFFF;
+  color: #585454;
   font-size: 88px;
   align-content: center;
   font-weight: bold;
@@ -103,7 +109,7 @@ transform:rotate(-180deg);
   padding: 10px;
 }
 .card-white {
-  background: #FFFFFF;
+  background: #FAF6E0;
   width: auto;
   height: auto; 
   transform: rotate(-2deg);
@@ -119,7 +125,7 @@ transform:rotate(-180deg);
   left: 6px;
   right: 6px;
   height: 25px;
-  background-color: #888CFF;
+  background-color: #FAF6E0;
   margin-top: -8px;
   mask: url(./images/circle.svg);
   -webkit-mask: url(./images/circle.svg);

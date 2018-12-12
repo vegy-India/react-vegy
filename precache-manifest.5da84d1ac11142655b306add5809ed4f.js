@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "f732514913de3e10d815d37340b29994",
-    "url": "/react-vegy/static/media/scroll.f7325149.svg"
+    "revision": "0235688535ca41c9fd7095d8dec4f49b",
+    "url": "/react-vegy/static/media/greencard.02356885.svg"
   },
   {
-    "revision": "8f90dc68dc56abac4bd0",
-    "url": "/react-vegy/static/css/main.d13a4ce7.chunk.css"
+    "revision": "11e702ce8b0d682cc5f8",
+    "url": "/react-vegy/static/css/main.712bf1e5.chunk.css"
   },
   {
-    "revision": "71a6acbe70725cb7eff7",
-    "url": "/react-vegy/static/js/1.71a6acbe.chunk.js"
+    "revision": "54df4e32cdfcc35ce408",
+    "url": "/react-vegy/static/js/1.54df4e32.chunk.js"
   },
   {
     "revision": "ff076f1cc773cdf5a36a",
@@ -32,16 +32,16 @@ self.__precacheManifest = [
     "url": "/react-vegy/static/media/heart.35952a54.svg"
   },
   {
-    "revision": "8f90dc68dc56abac4bd0",
-    "url": "/react-vegy/static/js/main.8f90dc68.chunk.js"
+    "revision": "11e702ce8b0d682cc5f8",
+    "url": "/react-vegy/static/js/main.11e702ce.chunk.js"
   },
   {
-    "revision": "a4a7758c0366ef1b4d0dd85fd917b157",
-    "url": "/react-vegy/static/media/main_image1.a4a7758c.png"
+    "revision": "6366d9176d7aa6ddfcd5bee078045f2e",
+    "url": "/react-vegy/static/media/vegy.6366d917.png"
   },
   {
-    "revision": "c6f1257a095fb3238d3a0ded1c47b20d",
-    "url": "/react-vegy/static/media/main_image2.c6f1257a.png"
+    "revision": "f732514913de3e10d815d37340b29994",
+    "url": "/react-vegy/static/media/scroll.f7325149.svg"
   },
   {
     "revision": "209f2cb41e1ca6d8444be2473c49bbcf",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/react-vegy/static/media/bird-05_1.a4d2a299.cur"
   },
   {
-    "revision": "d3f5c42192423de6d599958b61cb74eb",
+    "revision": "3cc7afc8f7d100878fe72ccb067d90a0",
     "url": "/react-vegy/index.html"
   }
 ];

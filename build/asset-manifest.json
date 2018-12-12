@@ -1,9 +1,9 @@
 {
-  "main.css": "/react-vegy/static/css/main.0be6268d.chunk.css",
-  "main.js": "/react-vegy/static/js/main.b178cf4e.chunk.js",
-  "main.js.map": "/react-vegy/static/js/main.b178cf4e.chunk.js.map",
-  "static/js/1.cf770441.chunk.js": "/react-vegy/static/js/1.cf770441.chunk.js",
-  "static/js/1.cf770441.chunk.js.map": "/react-vegy/static/js/1.cf770441.chunk.js.map",
+  "main.css": "/react-vegy/static/css/main.d13a4ce7.chunk.css",
+  "main.js": "/react-vegy/static/js/main.8f90dc68.chunk.js",
+  "main.js.map": "/react-vegy/static/js/main.8f90dc68.chunk.js.map",
+  "static/js/1.71a6acbe.chunk.js": "/react-vegy/static/js/1.71a6acbe.chunk.js",
+  "static/js/1.71a6acbe.chunk.js.map": "/react-vegy/static/js/1.71a6acbe.chunk.js.map",
   "runtime~main.js": "/react-vegy/static/js/runtime~main.ff076f1c.js",
   "runtime~main.js.map": "/react-vegy/static/js/runtime~main.ff076f1c.js.map",
   "static/media/styles.css": "/react-vegy/static/media/circle.adb4b4a1.svg",
@@ -17,8 +17,8 @@
   "static/media/bird-04_1.cur": "/react-vegy/static/media/bird-04_1.22f63427.cur",
   "static/media/bird-05_1.cur": "/react-vegy/static/media/bird-05_1.a4d2a299.cur",
   "static/media/logo.svg": "/react-vegy/static/media/logo.ad36c6ca.svg",
-  "static/css/main.0be6268d.chunk.css.map": "/react-vegy/static/css/main.0be6268d.chunk.css.map",
+  "static/css/main.d13a4ce7.chunk.css.map": "/react-vegy/static/css/main.d13a4ce7.chunk.css.map",
   "index.html": "/react-vegy/index.html",
-  "precache-manifest.8a5e3b7f7a38a871b790ebfd964ad0e0.js": "/react-vegy/precache-manifest.8a5e3b7f7a38a871b790ebfd964ad0e0.js",
+  "precache-manifest.d5ee96d39165330b2e345d6130127e99.js": "/react-vegy/precache-manifest.d5ee96d39165330b2e345d6130127e99.js",
   "service-worker.js": "/react-vegy/service-worker.js"
 }

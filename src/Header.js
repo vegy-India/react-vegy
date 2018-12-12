@@ -3,8 +3,15 @@ import logo from './images/logo.svg';
 import smallLogo from './images/small-logo.svg';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
+// import Collapse from 'react-bootstrap/lib/Collapse';
 import $ from 'jquery';
 class Header extends Component {
+  constructor(){
+    super();
+    this.state = {
+      collapse: true,
+    }
+  }
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll);
   };
@@ -13,15 +20,12 @@ class Header extends Component {
     var navbar = document.getElementById("navbar");
     var sticky = navbar.offsetTop;
     if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-      $('#main-logo1').hide(1000);
-      $('#main-logo2').show(1000);
+      navbar.classList.add("sticky");
     } else {
       navbar.classList.remove("sticky");
     }
     if(window.pageYOffset === sticky) {
-      $('#main-logo1').show(1000);
-      $('#main-logo2').hide(1000);
+
     }
 
   };

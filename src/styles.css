@@ -1,5 +1,5 @@
 #main-body {
-  background-color: #FFFFFF;
+  background-image: linear-gradient(#FFFFFF 70%, #73EFB2);
   height: 100%;
   width: 100%;
 }
@@ -43,10 +43,17 @@
   width: 100%;
 }
 
+.vegy-square {
+  width: 550px;
+  height: 550px;
+  background: #73EFB2;
+  border-radius: 50%;
+}
+
 .banner-text {
   font-family: sans-serif;
   color: #585454;
-  font-size: 88px;
+  font-size: 70px;
   align-content: center;
   font-weight: bold;
   margin: 0px;
@@ -67,9 +74,9 @@
   text-orientation: sideways;
   writing-mode: vertical-lr;
   -webkit-transform:rotate(-180deg);
--moz-transform:rotate(-180deg);
--o-transform:rotate(-180deg);
-transform:rotate(-180deg);
+  -moz-transform:rotate(-180deg);
+  -o-transform:rotate(-180deg);
+  transform:rotate(-180deg);
 }
 .downwards {
   margin-top: 360px;
@@ -83,7 +90,7 @@ transform:rotate(-180deg);
 .banner-small-text { 
   font-size: 16px;
   font-family: sans-serif;
-  color: #FFFFFF;
+  color: #585454;
   align-content: center;
   margin: 0px;
   padding-top: 30px;
@@ -109,10 +116,10 @@ transform:rotate(-180deg);
   padding: 10px;
 }
 .card-white {
-  background: #FAF6E0;
+  background: #FDF3A4;
   width: auto;
   height: auto; 
-  transform: rotate(-2deg);
+  transform: rotate(2deg);
   position: absolute;
 }
 .small-card-white {
@@ -125,7 +132,7 @@ transform:rotate(-180deg);
   left: 6px;
   right: 6px;
   height: 25px;
-  background-color: #FAF6E0;
+  background-color: #FDF3A4;
   margin-top: -8px;
   mask: url(./images/circle.svg);
   -webkit-mask: url(./images/circle.svg);
@@ -133,8 +140,9 @@ transform:rotate(-180deg);
 .card-blue {
   background: #6469E3;
   width: 550px;
-  height: 260px;
+  height: auto;
   transform: rotate(3deg);
+  color: #73EFB2;
 }
 .small-card-blue {
   background: #6469E3;
@@ -144,7 +152,7 @@ transform:rotate(-180deg);
 .card-green {
   background: #73EFB2;
   width: auto;
-  height: 480px;
+  height: auto;
   transform: rotate(-3deg);
 }
 .small-card-green {
@@ -169,6 +177,9 @@ transform:rotate(-180deg);
 }
 .delta {
   font-size: 20px;
+}
+.zeta {
+  font-size: 16px;
 }
 .bold {
   font-weight: bold;
@@ -223,8 +234,20 @@ transform:rotate(-180deg);
 .push-double-bottom {
   padding-bottom: 20px;
 }
+.flush {
+  padding: 0;
+}
+.flush-right {
+  padding-right:0px; 
+}
+.flush-bottom {
+  padding-bottom: 0px;
+}
 .white {
   color: #FFFFFF;
+}
+.black {
+  color: #585454;
 }
 .text-vegy {
   color: #73EFB2;

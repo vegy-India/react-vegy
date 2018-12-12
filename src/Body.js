@@ -9,8 +9,7 @@ import SmallWhiteCard from './SmallWhiteCard';
 import SmallGreenCard from './SmallGreenCard';
 import SmallBlueCard from './SmallBlueCard';
 import Connect from './Connect';
-import image1 from './images/main_image1.png';
-import image2 from './images/main_image2.png';
+import image1 from './images/vegy.png';
 import scroll from './images/scroll.svg';
 import bird1 from './images/bird-02_1.cur';
 import bird2 from './images/bird-03.cur';
@@ -58,21 +57,19 @@ onMouseOut() {
     return (
       <Row xs={12} className="main-body hard">
         <Col xs={12}>
-          <Row md={12} className="soft-bottom hard" id="playWithCursor" onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut}>
-            <Col xsHidden md={6} style={{marginLeft: '100px'}}>
-              <Row md={12} style={{marginLeft: '50px'}} className="push push-double-bottom">
-                {/* <Col md={5}>
+          <Row md={12} style={{marginTop: '80px'}} id="playWithCursor" onMouseOver={this.onMouseOver} onMouseOut={this.onMouseOut}>
+            <Col xsHidden md={6}>
+              <Row md={12} className="push">
+                <Col md={5} className="vegy-square soft-left">
+                <img id="img2" src={image1} width="450" height="450" alt="veg2" className="push-double-top soft-double-top"/>
                 </Col>
-                <Col md={5}>
-                <img style={{position: 'absolute', top: '-99px', left: '-50px'}} id="img2" src={image2} width="500" height="550" alt="veg2"/>
-                </Col> */}
               </Row>
             </Col>
-            <Col xsHidden md={6} style={{ marginTop: '150px', marginLeft: '-150px'}}>
-            <p className="banner-text push-top">This is <br/> something <br/><span className="vegy" >vegy </span>right?</p>
-            <div>
-              <p className="banner-small-text soft-double-top">Is that why Stéréosuper and its tight group of Frenchies <br/>are so good at whipping up awesome visual identities <br/>and designing kick-ass sites and apps?<br/> Lucky for you, Stéréosuper goes all American dream <br/>and opens an office in Brooklyn.Want to talk about it?</p>
-            </div> 
+            <Col xsHidden md={6} style={{marginTop:'120px', marginLeft: '-100px'}}>
+              <p className="banner-text">This is <br/> something <span className="vegy bold" >vegy </span>right?</p>
+              <div>
+              <p className="banner-small-text">So we are. <span className="vegy" >Vegy </span> is an indigenus foodie community offering a<br/> platform to connect eaters to the best <span style={{fontWeight: 'bold'}}>vegeterian recipe</span>, with <br/>first class reviews written by people who simply love food.</p>
+              </div> 
             </Col>
           </Row>
           {/* <Row xs={12}>
@@ -87,15 +84,15 @@ onMouseOut() {
             <Col mdHidden lgHidden>
             <p className="small-banner-text soft push-top">This is <br/> something <br/><span className="vegy" >vegy </span>right?</p>
             <div>
-              <p className="banner-small-text soft">Is that why Stéréosuper and its tight group of Frenchies <br/>are so good at whipping up awesome visual identities <br/>and designing kick-ass sites and apps? <br/>and opens an office in Brooklyn.Want to talk about it?</p>
+              <p className="banner-small-text soft">So we are. <span className="vegy" >Vegy </span>  is an indigenus foodie community offering a platform to connect eaters to the best <span style={{fontWeight: 'bold'}}>vegeterian recipe</span>,with first class reviews written by people who simply love food.</p>
             </div> 
             </Col>
           </Row>
           <Row xs={12} className="soft">
-            <div className="text-center soft-double-top push-double-top"><img src={scroll} alt="scroll" height="40"></img></div>
+            <div className="text-center"><img src={scroll} alt="scroll" height="40"></img></div>
           </Row>
-          <Row xs={12} style={{marginTop: '100px'}}>
-            <Col xsHidden md={6} style={{left: '600px', top:'60px'}}>
+          <Row xs={12} style={{marginTop: '120px'}}>
+            <Col xsHidden md={6} style={{left: '550px', top:'150px'}}>
               <Row id="greenCard" className="soft">
                 <GreenCard />
               </Row>
@@ -103,7 +100,7 @@ onMouseOut() {
                 <BlueCard />
               </Row>
             </Col>
-            <Col xsHidden md={6} style={{left: '-600px', top:'0'}}>
+            <Col xsHidden md={6} style={{left: '-550px', top:'0'}}>
               <Row md={12}>
                 <Col id="whiteCard" md={7} style={{left: '300px', top:'30px'}}>
                   <WhiteCard />
@@ -125,7 +122,7 @@ onMouseOut() {
               </Row>
             </Col>
           </Row>
-          <Row>
+          <Row className="push--top">
             <Connect />
           </Row>
         </Col>

@@ -15,13 +15,14 @@ class RightSidebar extends Component {
       sidebar.classList.remove("sticky");
     }
   }
+
   render() {
     return (
       <Row id='side-right' className="center pull-right">
         <Col className="downwards">
-        <span><a href="#" target="_blank" style={{color:'#463E3E', fontSize: '16px'}} >Instagram</a></span>
-        {/* <span> | </span> */}
-        {/* <span><a href="#" target="_blank" style={{color:'#463E3E', fontSize: '16px'}} >Facebook</a></span> */}
+        <span id="insta"><a href="https://www.instagram.com/vegy.india/" target="_blank" rel="noreferrer noopener" className="black zeta bold" >Instagram</a></span>
+        <span> | </span>
+        <span id="fb"><a href="https://www.facebook.com/vegy.india/" target="_blank" rel="noreferrer noopener"  className="black zeta bold" >Facebook</a></span>
         </Col>
       </Row>
     )

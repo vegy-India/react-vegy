@@ -20,9 +20,9 @@ class RightSidebar extends Component {
     return (
       <Row id='side-right' className="center pull-right">
         <Col className="downwards">
-        <span id="insta"><a href="https://www.instagram.com/vegy.india/" target="_blank" rel="noreferrer noopener" className="black zeta bold" >Instagram</a></span>
+        <span id="insta"><a href="https://www.instagram.com/vegy.india/" target="_blank" rel="noreferrer noopener" className="text-barlow black zeta bold" >Instagram</a></span>
         <span> | </span>
-        <span id="fb"><a href="https://www.facebook.com/vegy.india/" target="_blank" rel="noreferrer noopener"  className="black zeta bold" >Facebook</a></span>
+        <span id="fb"><a href="https://www.facebook.com/vegy.india/" target="_blank" rel="noreferrer noopener"  className="text-barlow black zeta bold" >Facebook</a></span>
         </Col>
       </Row>
     )

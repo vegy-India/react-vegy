@@ -6,7 +6,7 @@ import greencard from './images/greencard.svg';
 class GreenCard extends Component {
   render() {
     return (
-      <Row className="card-green text-sans">
+      <Row className="card-green text-muli">
         <Col sm={6}>
           <Row md={12} className="black push">
           <p className="gamma white">Why Now</p>

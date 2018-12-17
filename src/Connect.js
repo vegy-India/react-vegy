@@ -2,11 +2,16 @@ import React, { Component } from 'react';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 import Button from 'react-bootstrap/lib/Button';
+import email from './images/email.svg';
+import reverse_email from './images/reverse_email.svg';
 import $ from 'jquery';
 
 class Connect extends Component {
   validateEmail() {
 
+  }
+  onEnterEmail(){
+    $('#email-image').attr('src',reverse_email);
   }
   handleSubmit(e){
     // console.log("inside function",e.target);
@@ -17,23 +22,23 @@ class Connect extends Component {
   }
   render() {
     return (
-      <div id="section-connect" style={{ paddingTop: '340px', paddingBottom: '200px'}}>
+      <div id="section-connect" style={{ paddingTop: '340px', paddingBottom: '260px'}}>
         <Row xs={12} className="push">
           <Col xsHidden md={6}>
-            <Row className="soft alpha bold text-sans black">Let's <br/>Connect
+            <Row className="connect text-barlow black">Let's <br/>Connect
             </Row>
           </Col>
           <Col xsHidden md={6} className="push-top">
-            <Row className="soft push-ends">
+            <Row className="push-ends">
               <form action="https://mailthis.to/vegy" method="POST">
-                <input className="push black" placeholder="Enter your Email Id here" name="_subject" style={{border: 'none', height:'55px', width:'400px'}}></input>
-                <button type="submit" onClick={this.handleSubmit} />
+                <Col md={7}><input className="black push" placeholder="Enter your Email Id here" onChange={this.onEnterEmail} name="_subject" style={{border: 'none', height:'60px', width: '350px'}}></input></Col>
+                <Col md={4} className="white soft-left"><img id="email-image" onClick={this.handleSubmit} src={email} alt="email" height="60"/></Col>
               </form>
             </Row>
             <Row id="confirm" style={{display: 'none'}} className="soft">
               <Button bsStyle="success">Subscribed</Button>
             </Row>
-            <Row className="soft zeta black">Enter your email to see what we’have working on and stay in <br/>the know, on the go. All of this is will be brought together in <br/>one easy-to-use and beautifully designed website and app.</Row>  
+            <Row className="zeta black banner-small-text">Enter your email to see what we’have working on and stay in the <br/>know, on the go. All of this is will be brought together in one easy-<br/>to-use and beautifully designed website and app.</Row>  
           </Col>
           {/* <Col mdHidden lgHidden style={{marginLeft:"20px",color: '#463E3E'}}>
             <Row className="soft beta white bold text-sans">Let's <br/>Connect
